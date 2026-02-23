@@ -19,7 +19,7 @@ elif level == "medium":
 elif level == "hard":
     secret = random.choice(hard_words)
 else:
-    print("Invalid input, Difficulty set to easy")
+    print("Invalid input, Difficulty set to easy")       # accepting default input
     secret = random.choice(easy_words)
 
 attempts = 0
@@ -46,4 +46,5 @@ while True:
 print("Game is Over")
             
     
+
     
